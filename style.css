@@ -1,0 +1,137 @@
+*{
+    background-color: #faf9f8;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box{
+    background-color: transparent;
+    border: 2px solid #555;
+    width: 1100px;
+    height: 500px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topbarshadow{
+    width: 550px;
+    height: 2px;
+    margin-left: 60.8%;
+    margin-top: 116px;
+    background-color: black;
+}
+
+.topbar{
+    background-color: transparent;
+    width: 450px;
+    height: 48px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+  
+form{
+    display: flex;
+    padding: 2px;
+    margin: 0 0 30px;
+}
+  
+form.nosubmit{
+    padding: 0;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+input.nosubmit{
+    border: transparent;
+    width: 550px;
+    height: 48px;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+p1{
+    background: transparent;
+    color: #222222;
+    height: 20px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+p1:hover{
+    border-bottom: 3px solid #333333;
+    overflow: hidden;
+}
+
+p2{
+    background: transparent;
+    color: #222222;
+    height: 20px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 80px;
+}
+
+p2:hover{
+    border-bottom: 3px solid #333333;
+    overflow: hidden;
+}
+
+p3{
+    background: transparent;
+    color: #222222;
+    height: 20px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+
+p3:hover{
+    border-bottom: 3px solid #333333;
+    overflow: hidden;
+}
+
+p4{
+    background: transparent;
+    color: #222222;
+    height: 20px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 220px;
+}
+
+p4:hover{
+    border-bottom: 3px solid #333333;
+    overflow: hidden;
+}
+
+p5{
+    background: transparent;
+    color: #222222;
+    height: 20px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 320px;
+}
+
+p5:hover{
+    border-bottom: 3px solid #333333;
+    overflow: hidden;
+}
