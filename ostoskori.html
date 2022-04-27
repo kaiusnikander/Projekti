@@ -1,33 +1,111 @@
-<!doctype html>
-<html lang="en-US">
-<head>
-<title>Kenkäkauppa/Ostoskori</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="rating" content="General">
-<meta name="expires" content="never">
-<meta name="language" content="English, EN">
-<meta name="description" content="Shopping cart project with HTML5 and JavaScript">
-<meta name="keywords" content="HTML5,CSS,JavaScript, html5 session storage, html5 local storage">
-<meta name="author" content="dcwebmakers.com">
-<script src="Storage.js"></script>
-<link rel="stylesheet" href="StorageStyle.css">
-</head>
-<form name="ShoppingList">
-    <fieldset>
-        <legend>Ostoskori</legend>
-        <label>Asia: <input type="text" name="name"></label>
-        <label>Määrä: <input type="text" name="data"></label>
+<!DOCTYPE html>
 
-        <input type="button" value="Tallenna"   onclick="SaveItem()">
-        <input type="button" value="Muokkaa" onclick="ModifyItem()">
-        <input type="button" value="Poista" onclick="RemoveItem()">
-    </fieldset>
-    <div id="items_table">
-        <h2>Ostos lista</h2>
-        <table id="list"></table>
-        <label><input type="button" value="Tyhjennä" onclick="ClearAll()">
-        Poista kaikki tiedot</label>
-    </div>
-</form>
-<body onload="doShowAll()"></body>
+<html>
+
+<head>
+
+	<title>Ostoskori</title>
+
+	<link rel="stylesheet" type="text/css" href="ostoskori.css">
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+	<h1>Ostoskori</h1>
+
+	<div class="cart">
+
+		<div class="products">
+
+			<div class="product">
+
+				<img src="shoes.jpg">
+
+				<div class="product-info">
+
+					<h3 class="product-name">Miesten kengät</h3>
+
+					<h4 class="product-price">60€</h4>
+
+
+					<p class="product-quantity">Määrä: <input value="1" name="">
+
+					<p class="product-remove">
+
+						<i class="fa fa-trash" aria-hidden="true"></i>
+
+						<span class="remove">Poista</span>
+
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="product">
+
+				<img src="bag1.jpg">
+
+				<div class="product-info">
+
+					<h3 class="product-name">Kengät</h3>
+
+					<h4 class="product-price">60€</h4>
+
+
+					<p class="product-quantity">Määrä: <input value="1" name="">
+
+					<p class="product-remove">
+
+						<i class="fa fa-trash" aria-hidden="true"></i>
+
+						<span class="remove">Poista</span>
+
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="cart-total">
+
+			<p>
+
+				<span>Total Price</span>
+
+				<span>120€</span>
+
+			</p>
+
+			<p>
+
+				<span>Määrä</span>
+
+				<span>2</span>
+
+			</p>
+
+
+			<a href="#">Jatka maksamiseen</a>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+</body>
+
+
+</html>
